@@ -1,16 +1,19 @@
-# 🐳 DockerNation: A Docker cheatsheet for beginners
+<div align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Docker_Logo.png/960px-Docker_Logo.png" width="300" height="200" alt="Docker Logo">
+
+# DockerNation: Cheatsheet for beginners
 
 A comprehensive guide to Docker that takes you from complete beginner to upper intermediate level, with practical examples and clear explanations of what problems each concept solves.
+
+</div>
 
 ---
 
 <div align="center">
-
-## Introduction
+  
+## 📑 Introduction
 
 </div>
-
-### 📑 What is Docker?
 
 Docker is a platform that allows you to package applications and their dependencies into containers. These containers can run consistently across different environments, from your local machine to production servers.
 
@@ -97,7 +100,7 @@ These are the most essential topics you need to understand before diving into th
 ### Images
 
 - A Docker image is a read-only template that contains the application code, runtime, libraries, and dependencies needed to run an application.
-- Think of an image as a recipe or a blueprint. It describes what should be in the container but isn't running anything yet.
+- Think of an image as a recipe or a blueprint. It describes what should be in the container, but it isn't running anything yet.
 - Images ensure that everyone uses the exact same environment. When you share an image, you're sharing the complete setup, not just instructions that might be interpreted differently.
 
 **Example:**
