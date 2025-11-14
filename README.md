@@ -17,7 +17,7 @@ A comprehensive guide to Docker that takes you from complete beginner to upper i
 
 Docker is a platform that allows you to package applications and their dependencies into containers. These containers can run consistently across different environments, from your local machine to production servers.
 
-### 📑 The Problem Docker Solves
+### 📝 The Problem Docker Solves
 
 **Before Docker:**
 - "It works on my machine" - Applications behave differently across environments
@@ -33,7 +33,7 @@ Docker is a platform that allows you to package applications and their dependenc
 - Production environment can be replicated exactly on your laptop
 - Simplified and standardized deployment process
 
-### 📑 Docker vs Virtual Machines
+### 📝 Docker vs Virtual Machines
 
 Virtual machines include a full operating system, which makes them heavy and slow to start. Docker containers share the host operating system kernel, making them lightweight and fast.
 
@@ -46,7 +46,7 @@ Virtual machines include a full operating system, which makes them heavy and slo
 
 ---
 
-## 📑 Installation
+## 📝 Installation
 
 ### Windows/macOS:
 
@@ -93,7 +93,7 @@ This command downloads a test image and runs it in a container. If you see a "He
 
 ---
 
-## 📑 Core Concepts
+## 📝 Core Concepts
 
 These are the most essential topics you need to understand before diving into the commands:
 
@@ -170,7 +170,7 @@ services:
 ---
 <div align="center">
 
-## 📑 Basic Commands
+## 🚥 Basic Commands
 
 </div>
 
@@ -212,7 +212,7 @@ docker search nginx
 docker search postgres
 ... ... ...
 ```
-> This command find existing images so you don't have to build everything from scratch. Official images are maintained by the software creators and are generally trustworthy.
+> This command finds existing images, so you don't have to build everything from scratch. Official images are maintained by the software creators and are generally trustworthy.
 
 
 ### Pulling Images
@@ -319,7 +319,7 @@ docker tag myapp:1.0 username/myapp:1.0
 ---
 <div align="center">
 
-## 📑 Working with Containers
+## 📝 Working with Containers
 
 </div>
 
@@ -349,7 +349,7 @@ docker run -d -v my-data:/var/lib/postgresql/data postgres:18.1
 ```
 
 **Problem each option solves:**
-- `-d`: Runs in background so your terminal isn't blocked
+- `-d`: Runs in the background so your terminal isn't blocked
 - `--name`: Makes containers easy to reference instead of using random IDs
 - `-p`: Allows you to access containerized applications from your host machine
 - `--rm`: Keeps your system clean by auto-removing temporary containers
