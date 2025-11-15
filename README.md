@@ -56,7 +56,7 @@ docker compose version
 # Output: Docker Compose version v2.40.3
 ```
 
-#### Linux: 
+#### Linux:
 
 Follow the [installation instructions](https://docs.docker.com/engine/install) from the official website based on your Linux distribution.
 
@@ -163,7 +163,7 @@ services:
 
 ---
 
-### 📂 Related Cheatsheets:
+### 📂 Browse Other Concepts:
 
 [Introduction](README.md) | [Basic Commands](Basic-Commands.md) | [Containers](Containers.md) | [Docker Compose](Docker-Compose.md) | [Dockerfile](Dockerfile-Guide.md) | [Networking](Networking.md) | [Volumes](Volumes-Data.md) | [Best Practice](Best-Practices.md)
 
