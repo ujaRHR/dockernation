@@ -3,11 +3,12 @@
 ## 📑 Networking
 
 Networking is what lets containers talk to each other and to the outside world. This section shows you the simple concepts you need to set up clean, reliable connections.
+
 </div>
 
 ---
 
-### ✳️ The Problem Docker Networking Solves
+### 📂 The Problem Docker Networking Solves
 
 #### Before Docker networking:
 - Containers couldn't easily communicate with each other
@@ -21,7 +22,7 @@ Networking is what lets containers talk to each other and to the outside world. 
 - Network isolation between applications
 - Easy service discovery
 
-### ✳️ Network Types
+### 📂 Network Types
 
 #### Bridge Network (Default)
 
@@ -55,7 +56,7 @@ docker run -d --network none myapp
 - Complete network isolation. Container has no network access.
 - Security-sensitive processing of local data.
 
-### ✳️ Network Commands
+### 📂 Network Commands
 
 ```bash
 # List networks
@@ -83,7 +84,7 @@ docker network rm my-network
 docker network prune
 ```
 
-### ✳️ Container Communication Examples
+### 📂 Container Communication Examples
 
 #### 🚥 Example 1: Web app connecting to database
 
@@ -150,7 +151,7 @@ networks:
 - Frontend CANNOT talk to Database directly (no shared network)
 
 
-### ✳️ DNS Resolution
+### 📂 DNS Resolution
 
 Docker provides automatic DNS resolution for container names:
 
@@ -162,7 +163,7 @@ ping database
 # Works! DNS resolves "database" to the container's IP
 ```
 
-### ✳️ Port Publishing
+### 📂 Port Publishing
 
 ```bash
 # Publish to specific host port
@@ -183,7 +184,7 @@ docker run -p 8080:80 -p 8443:443 nginx
 - Traffic to localhost:8080 is forwarded to port 80 inside the container
 
 
-### ✳️ Network Aliases
+### 📂 Network Aliases
 
 ```bash
 # Container can be reached by multiple names
@@ -207,7 +208,5 @@ Now other containers can reach this container using:
 [Introduction](README.md) | [Basic Commands](Basic-Commands.md) | [Containers](Containers.md) | [Docker Compose](Docker-Compose.md) | [Dockerfile](Dockerfile-Guide.md) | [Networking](Networking.md) | [Volumes](Volumes-Data.md) | [Best Practice](Best-Practices.md)
 
 ---
-<div align="center">
 
-***Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)***
-</div>
+**Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)**

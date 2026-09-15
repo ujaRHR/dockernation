@@ -1,9 +1,11 @@
 <div align="center">
 
-##  Basic Commands
+## 📑 Basic Commands
 This section covers the core Docker commands you'll use every day. These basics help you manage images, containers, logs, and simple workflows with confidence.
 
 </div>
+
+---
 
 #### 🚥 Checking Docker Status
 
@@ -156,7 +158,4 @@ docker tag myapp:1.0 username/myapp:1.0
 
 ---
 
-<div align="center">
-
-***Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)***
-</div>
+**Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)**

@@ -5,6 +5,8 @@ Containers are at the heart of Docker, and this section shows you how to work wi
 
 </div>
 
+---
+
 #### 🚥 Running Containers
 
 ```bash
@@ -177,8 +179,5 @@ docker stats
 [Introduction](README.md) | [Basic Commands](Basic-Commands.md) | [Containers](Containers.md) | [Docker Compose](Docker-Compose.md) | [Dockerfile](Dockerfile-Guide.md) | [Networking](Networking.md) | [Volumes](Volumes-Data.md) | [Best Practice](Best-Practices.md)
 
 ---
-<div align="center">
 
-***Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)***
-
-</div>
+**Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)**

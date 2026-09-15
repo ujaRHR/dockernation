@@ -7,7 +7,7 @@ Docker containers are temporary by default, so anything stored inside them can d
 
 ---
 
-#### ✳️ The Problem Volumes Solve
+### 📂 The Problem Volumes Solve:
 
 #### Without volumes:
 ```bash
@@ -41,7 +41,7 @@ docker run --name db -v pgdata:/var/lib/postgresql/data postgres:18.1
 # All previous data is still there...!
 ```
 
-### ✳️ Volume Types
+### 📂 Volume Types
 
 #### 🚥 Named Volumes
 
@@ -87,7 +87,7 @@ VOLUME /app/data
 - Simple data persistence when you don't need to reference the volume by name.
 
 
-### ✳️ Volume Commands
+### 📂 Volume Commands
 
 ```bash
 # List volumes
@@ -109,7 +109,7 @@ docker volume prune
 docker volume rm $(docker volume ls -q)
 ```
 
-### ✳️ Real-World Examples
+### 📂 Real-World Examples
 
 #### 🚥 Example 1: Database with Persistent Storage
 
@@ -155,7 +155,7 @@ docker run -d \
 ```
 
 
-### ✳️  Volume Backup and Restore
+### 📂 Volume Backup and Restore
 
 #### 🚥 Backup a volume:
 ```bash
@@ -189,7 +189,5 @@ docker run -v my-data-restored:/app/data myapp
 [Introduction](README.md) | [Basic Commands](Basic-Commands.md) | [Containers](Containers.md) | [Docker Compose](Docker-Compose.md) | [Dockerfile](Dockerfile-Guide.md) | [Networking](Networking.md) | [Volumes](Volumes-Data.md) | [Best Practice](Best-Practices.md)
 
 ---
-<div align="center">
 
-***Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)***
-</div>
+**Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)**

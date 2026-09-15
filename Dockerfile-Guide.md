@@ -4,7 +4,7 @@
 A Dockerfile is a script that contains instructions for building a Docker image. Each instruction creates a layer in the image.
 </div>
 
-#### Basic Dockerfile Structure
+### 📂 Basic Dockerfile Structure
 
 ```dockerfile
 FROM node:24.11
@@ -226,8 +226,5 @@ HEALTHCHECK --interval=30s --timeout=3s \
 [Introduction](README.md) | [Basic Commands](Basic-Commands.md) | [Containers](Containers.md) | [Docker Compose](Docker-Compose.md) | [Dockerfile](Dockerfile-Guide.md) | [Networking](Networking.md) | [Volumes](Volumes-Data.md) | [Best Practice](Best-Practices.md)
 
 ---
-<div align="center">
 
-***Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)***
-
-</div>
+**Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)**

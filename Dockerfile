@@ -2,7 +2,7 @@
 FROM node:24.11-alpine
 
 # Set metadata
-LABEL maintainer="hello@rhraju.com"
+LABEL maintainer="rhraju.inbox@gmail.com"
 LABEL version="0.1"
 
 # Install system dependencies

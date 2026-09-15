@@ -2,11 +2,12 @@
 
 ## 📑 Docker Compose
 Docker Compose is a tool for defining and running multi-container applications. You define your application's services in a YAML file, then start everything with a single command.
+
 </div>
 
 ---
 
-### ✳️ The Problem Docker Compose Solves
+### 📂 The Problem Docker Compose Solves
 
 #### Without Docker Compose:
 ```bash
@@ -31,7 +32,7 @@ docker compose up
 
 Just one command starts everything with proper configuration, networking, and dependencies.
 
-### ✳️ Structure: docker-compose.yml
+### 📂 Structure: docker-compose.yml
 
 ```yaml
 version: '3.8'
@@ -66,7 +67,7 @@ volumes:
   pgdata:
 ```
 
-### ✳️ Service Configuration
+### 📂 Service Configuration
 
 #### 🚥 build - Build from Dockerfile
 - Build custom images as part of your compose setup without separate build commands.
@@ -219,7 +220,7 @@ services:
     restart: on-failure
 ```
 
-### ✳️ Docker Compose Commands
+### 📂 Docker Compose Commands
 
 ```bash
 # Start all services
@@ -286,7 +287,7 @@ docker compose up -d
 
 
 
-### ✳️ Development vs Production Compose Files
+### 📂 Development vs Production Compose Files
 
 You can have multiple compose files for different environments (production, development, testing...):
 
@@ -310,7 +311,5 @@ docker compose -f docker-compose.yml -f docker-compose.test.yml up -d
 [Introduction](README.md) | [Basic Commands](Basic-Commands.md) | [Containers](Containers.md) | [Docker Compose](Docker-Compose.md) | [Dockerfile](Dockerfile-Guide.md) | [Networking](Networking.md) | [Volumes](Volumes-Data.md) | [Best Practice](Best-Practices.md)
 
 ---
-<div align="center">
 
-***Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)***
-</div>
+**Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)**

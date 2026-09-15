@@ -4,7 +4,7 @@
 As you get more comfortable with Docker, a few best practices can save you time and prevent headaches.
 </div>
 
-### ✳️  Security Best Practices
+### 📂 Security Best Practices
 
 #### 🚥 Run as Non-Root User
 - Running as root is a security risk. If an attacker compromises your app, they have root access to the container.
@@ -72,7 +72,7 @@ COPY . .
 - Check the example [.dockerignore](.dockerignore) file
 
 
-### ✳️ Image Optimization
+### 📂 Image Optimization
 
 #### 🚥 Use Multi-Stage Builds
 
@@ -135,7 +135,7 @@ FROM node:24-alpine
 - Alpine Linux is minimal, resulting in much smaller images.
 - Some packages may not work on Alpine (uses musl instead of glibc).
 
-### ✳️  Development Best Practices
+### 📂 Development Best Practices
 
 #### 🚥 Use Docker Compose for Local Development
 
@@ -170,7 +170,5 @@ docker build -t myregistry.com/myapp:1.2.3 .
 [Introduction](README.md) | [Basic Commands](Basic-Commands.md) | [Containers](Containers.md) | [Docker Compose](Docker-Compose.md) | [Dockerfile](Dockerfile-Guide.md) | [Networking](Networking.md) | [Volumes](Volumes-Data.md) | [Best Practice](Best-Practices.md)
 
 ---
-<div align="center">
 
-***Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)***
-</div>
+**Maintained with ❤️ by [Reajul Hasan Raju](https://github.com/ujaRHR)**
